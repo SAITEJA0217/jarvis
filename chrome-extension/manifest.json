@@ -1,0 +1,48 @@
+{
+  "manifest_version": 3,
+  "name": "JARVIS Copilot",
+  "version": "1.0.0",
+  "description": "JARVIS AI Operating System Copilot for Job Applications",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "*://*.linkedin.com/*",
+    "*://*.wellfound.com/*",
+    "*://*.ycombinator.com/*",
+    "*://*.internshala.com/*",
+    "*://*.greenhouse.io/*",
+    "*://*.lever.co/*",
+    "http://localhost:8000/*"
+  ],
+  "background": {
+    "service_worker": "src/background.ts",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.linkedin.com/*",
+        "*://*.wellfound.com/*",
+        "*://*.ycombinator.com/*",
+        "*://*.internshala.com/*",
+        "*://*.greenhouse.io/*",
+        "*://*.lever.co/*"
+      ],
+      "js": ["src/content.tsx"],
+      "css": ["src/index.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["assets/*", "src/index.css"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

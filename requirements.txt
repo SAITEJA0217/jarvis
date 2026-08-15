@@ -1,0 +1,14 @@
+numpy>=1.24,<3
+sounddevice>=0.4.6,<0.6
+elevenlabs>=1.50,<3
+websockets>=13
+python-dotenv>=1.0,<2
+openwakeword>=0.6.0
+faster-whisper>=1.0.0
+fastapi>=0.111.0
+uvicorn>=0.30.0
+tflite-runtime
+google-generativeai
+pytest
+playwright
+markdown

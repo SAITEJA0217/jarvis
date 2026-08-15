@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mock Job Application</title>
+</head>
+<body>
+    <h1>Apply for AI Intern Role at Google</h1>
+    <form id="job-form">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="uni">University:</label><br>
+        <input type="text" id="uni" name="uni"><br><br>
+        
+        <label for="degree">Degree:</label><br>
+        <select id="degree" name="degree">
+            <option value="bachelors">B.Tech / Bachelors</option>
+            <option value="masters">Masters</option>
+            <option value="phd">PhD</option>
+        </select><br><br>
+        
+        <label>Willing to relocate?</label><br>
+        <input type="radio" id="relocate_yes" name="relocate" value="yes">
+        <label for="relocate_yes">Yes</label><br>
+        <input type="radio" id="relocate_no" name="relocate" value="no">
+        <label for="relocate_no">No</label><br><br>
+        
+        <label for="resume">Upload Resume:</label><br>
+        <input type="file" id="resume" name="resume"><br><br>
+        
+        <input type="button" id="submit_btn" value="Submit Application">
+    </form>
+    <div id="success_message" style="display:none; color:green;">Form Submitted!</div>
+    
+    <script>
+        document.getElementById("submit_btn").addEventListener("click", function() {
+            document.getElementById("job-form").style.display = "none";
+            document.getElementById("success_message").style.display = "block";
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+{
+  "full_name": "Karka Saiteja Reddy",
+  "first_name": "Saiteja",
+  "last_name": "Karka",
+  "email": "karkasaiteja4@gmail.com",
+  "phone": "6281847727",
+  "github_username": "SAITEJA0217",
+  "github_profile": "https://github.com/SAITEJA0217",
+  "linkedin_profile": "https://www.linkedin.com/in/saiteja-reddy-karka/",
+  "university": "Malla Reddy University",
+  "degree": "B.Tech",
+  "branch": "Artificial Intelligence and Machine Learning (AIML)",
+  "graduation_year": 2027,
+  "location": "Hyderabad, Telangana, India",
+  "skills": [
+    "Python",
+    "Machine Learning",
+    "Artificial Intelligence",
+    "React.js",
+    "Next.js",
+    "FastAPI",
+    "Firebase",
+    "Supabase",
+    "Full Stack Development",
+    "Web Development"
+  ],
+  "projects": [
+    "InternLink",
+    "FormPilot",
+    "JARVIS OS"
+  ],
+  "startup": "InternLink",
+  "internlink_website": "https://internlink.in",
+  "role": "Founder",
+  "career_interests": [
+    "AI Engineer",
+    "Machine Learning Engineer",
+    "Software Engineer",
+    "Full Stack Developer"
+  ],
+  "preferred_internship_types": [
+    "AI/ML Internships",
+    "Software Engineering Internships",
+    "Full Stack Internships",
+    "Remote Internships"
+  ],
+  "preferred_work_mode": [
+    "Remote",
+    "Hybrid",
+    "Onsite"
+  ],
+  "resume_owner_name": "Karka Saiteja Reddy"
+}
